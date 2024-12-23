@@ -2,7 +2,7 @@
 
 **AntiCMSP Browser**, o navegador do aluno 📚🎓
 
-O AntiCMSP Browser foi criado para facilitar a vida dos estudantes que usam plataformas de educação como CMSP, Alura, LeiaSP, entre outros. Ele permite injetar scripts criados para automatizar tarefas e ajudar na resolução de exercícios nessas plataformas. Um verdadeiro aliado no aprendizado! 💻✨
+O AntiCMSP Browser foi criado para facilitar a vida dos estudantes que usam plataformas de educação como CMSP, Alura, LeiaSP, entre outros. Ele permite injetar scripts criados para automatizar tarefas e ajudar na resolução de exercícios nessas plataformas. 💻✨
 
 ## 🛠️ Funcionalidades
 
