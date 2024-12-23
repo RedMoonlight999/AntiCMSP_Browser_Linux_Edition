@@ -65,6 +65,20 @@ Se você deseja contribuir, fique à vontade para enviar um PR (pull request) co
 - **Desenvolvedor**: [Junior Schueller](https://github.com/JuniorSchueller) 👨‍💻
 - **Comunidadade**: [Platform Destroyer](https://discord.gg/platformdestroyer) 💬
 
+### 👨‍💻 Scripts
+- Alura Destroyer: **[marcos10pc](https://github.com/marcos10pc)**
+- CMSP Doritus: **[marcos10pc](https://github.com/marcos10pc)**
+- KhanTool: **?**
+- KhanWare: **[Niximkk](https://github.com/Niximkk)**
+- LeiaSP: **?**
+- Let's It Leia: **[iUnknownBr](https://github.com/iUnknownBr)** & **[Snowxyrzk](https://github.com/Snowxyrzk)**
+- Matific Overload: **[flowings](https://github.com/flowingsalt)**
+- Tô Salvo! **[marcos10pc](https://github.com/marcos10pc)**
+
+⚠️ Se você for o dono de algum script e seu nome não estiver presente na lista, por favor me envie uma DM no Discord ⚠️
+
 ## ⚖️ Licença
 
 Este projeto é licenciado sob a [MIT License](LICENSE).
+
+⚠️ Os scripts presentes nesse projeto pode conter licenças diferentes deste projeto. ⚠️
