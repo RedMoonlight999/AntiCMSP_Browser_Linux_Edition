@@ -174,6 +174,7 @@ document.addEventListener('DOMContentLoaded', () => {
         if (itemType === 'script') {
             hamburgerItem.addEventListener('click', () => {
                 injectScript(itemContent);
+                hideMenu();
             });
         } else if (itemType === 'option') {
             if (itemContent === 'devmode') {

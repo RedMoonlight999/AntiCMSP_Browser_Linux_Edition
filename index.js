@@ -17,7 +17,7 @@ function createWindow() {
             nodeIntegrationInSubFrames: true
         }
     });
-    win.loadFile(path.join(__dirname, '/layout/index.html'));
+    win.loadURL('https://anticmsp-browser.vercel.app/');
 
     ipcMain.on('devtools', () => {
         if (win.webContents.isDevToolsOpened()) {
