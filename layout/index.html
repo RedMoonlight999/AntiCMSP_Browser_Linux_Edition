@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AntiCMSP Browser</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"/>
+</head>
+<body>
+    <!--
+    <div class="tabs">
+        <div id="tab"><img id="tab-icon" src="https://www.google.com/s2/favicons?domain=exemplo.com&sz=32"><p id="tab-name">EXEMPLO</p><p id="tab-close">X</p></div>
+        <div id="tab-add">+</div>
+    </div>
+    -->
+    <div class="nav">
+        <div class="page-control">
+            <button id="backPage"><i class="fa-solid fa-arrow-left"></i></button>
+            <button id="forwardPage"><i class="fa-solid fa-arrow-right"></i></button>
+            <button id="reloadPage"><i class="fa-solid fa-rotate-right"></i></button>
+        </div>
+        <input type="text" name="searchBar" id="searchBar" placeholder="Pesquisar no Google ou digitar URL">
+        <button id="tamperTurkeyInject"><img src="./images/misc/tamperTurkeyIcon.png" alt="TamperTurkey Icon"></button>
+        <button id="hamburger"><i class="fa-solid fa-bars"></i></button>
+    </div>
+    <div class="content">
+        <webview id="page" src="./main.html"></webview>
+    </div>
+    <div class="hamburger-menu">
+        <button id="hamburger-menu-close">✕</button>
+        <p id="hamburger-menu-header">SCRIPTS</p>
+        <p id="hamburger-menu-item" data-type="script" data-content="alura"><img src="./images/scripts/alura.png" id="hamburger-menu-item-icon"> Alura Destroyer</p>
+        <p id="hamburger-menu-item" data-type="script" data-content="cmspdoritus"><img src="./images/scripts/cmspdoritus.svg" id="hamburger-menu-item-icon"> CMSP Doritus</p>
+        <p id="hamburger-menu-item" data-type="script" data-content="khantool"><img src="./images/scripts/khantool.png" id="hamburger-menu-item-icon"> KhanTool</p>
+        <p id="hamburger-menu-item" data-type="script" data-content="khanware"><img src="./images/scripts/khanware.png" id="hamburger-menu-item-icon"> KhanWare</p>
+        <p id="hamburger-menu-item" data-type="script" data-content="leiasp"><img src="./images/scripts/leiasp.png" id="hamburger-menu-item-icon"> LeiaSP</p>
+        <p id="hamburger-menu-item" data-type="script" data-content="letsitleia"><img src="./images/scripts/leiasp.png" id="hamburger-menu-item-icon"> Let's It Leia</p>
+        <p id="hamburger-menu-item" data-type="script" data-content="matific"><img src="./images/scripts/matific.png" id="hamburger-menu-item-icon"> Matific Overload</p>
+        <p id="hamburger-menu-item" data-type="script" data-content="mesalva"><img src="./images/scripts/mesalva.png" id="hamburger-menu-item-icon"> Tô Salvo!</p>
+        <p id="hamburger-menu-item" data-type="script" data-content="speak"><img src="./images/scripts/speak.png" id="hamburger-menu-item-icon"> Speakify</p>
+        <p id="hamburger-menu-header">OPÇÕES</p>
+        <p id="hamburger-menu-item" data-type="option" data-content="themeswitch"><i class="fa-solid fa-circle-half-stroke" id="hamburger-menu-item-icon"></i> Mudar Tema</p>
+        <p id="hamburger-menu-item" data-type="option" data-content="devmode"><i class="fa-solid fa-code" id="hamburger-menu-item-icon"></i> Modo Desenvolvedor</p>
+        <p id="hamburger-menu-header">ATALHOS</p>
+        <p id="hamburger-menu-item" data-type="shortcut" data-content="reloadBrowser"><i class="fa-solid fa-rotate-right" id="hamburger-menu-item-icon"></i> Recarregar Navegador <span id="shortcut">Ctrl+Shift+R</span></p>
+        <p id="hamburger-menu-item" data-type="shortcut" data-content="reloadPage"><i class="fa-solid fa-rotate-right" id="hamburger-menu-item-icon"></i> Recarregar Página <span id="shortcut">Ctrl+R</span></p>
+        <p id="hamburger-menu-item" data-type="shortcut" data-content="devToolsBrowser"><i class="fa-solid fa-code" id="hamburger-menu-item-icon"></i> Modo Desenvolvedor Geral <span id="shortcut">Ctrl+Shift+Alt+I</span></p>
+        <p id="hamburger-menu-item" data-type="shortcut" data-content="devToolsPage"><i class="fa-solid fa-code" id="hamburger-menu-item-icon"></i> Modo Desenvolvedor <span id="shortcut">Ctrl+Shift+I</span></p>
+        <p id="hamburger-menu-header">CRÉDITOS</p>
+        <p id="hamburger-menu-item" data-type="redir" data-content="https://github.com/JuniorSchueller"><i class="fa-brands fa-github" id="hamburger-menu-item-icon"></i> Junior Schueller</p>
+        <p id="hamburger-menu-item" data-type="redir" data-content="https://discord.gg/platformdestroyer"><i class="fa-brands fa-discord" id="hamburger-menu-item-icon"></i> Platform Destroyer</p>
+    </div>
+
+    <link rel="stylesheet" href="./assets/styles/browser.css">
+    <script src="./assets/scripts/browser.js"></script>
+</body>
+</html>

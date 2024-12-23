@@ -1,0 +1,33 @@
+{
+  "name": "anticmsp_browser",
+  "version": "1.0.0",
+  "description": "AntiCMSP Browser, o navegador do aluno.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JuniorSchueller/AntiCMSP_Browser.git"
+  },
+  "keywords": [
+    "anticmsp",
+    "cmsp",
+    "sed",
+    "sp",
+    "browser",
+    "navegador",
+    "script",
+    "hack",
+    "electron"
+  ],
+  "author": "JuniorSchueller",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JuniorSchueller/AntiCMSP_Browser/issues"
+  },
+  "homepage": "https://github.com/JuniorSchueller/AntiCMSP_Browser#readme",
+  "dependencies": {
+    "electron": "^33.2.1"
+  }
+}
