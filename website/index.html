@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AntiCMSP Browser - Página Inicial</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(120deg, #1e3c72, #2a5298);
+            color: #ffffff;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            overflow-x: hidden;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+
+        header h1 {
+            font-size: 3rem;
+            font-weight: 600;
+            background: linear-gradient(to right, #00c6ff, #0072ff);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        header p {
+            font-size: 1.2rem;
+            margin-top: 0.5rem;
+        }
+
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 1.5rem;
+            width: 90%;
+            max-width: 1200px;
+            margin-bottom: 2rem;
+        }
+
+        .feature {
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 10px;
+            padding: 1.5rem;
+            text-align: center;
+            transition: transform 0.3s ease, background 0.3s ease;
+        }
+
+        .feature:hover {
+            transform: translateY(-10px);
+            background: rgba(255, 255, 255, 0.2);
+        }
+
+        .feature h3 {
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .feature p {
+            font-size: 1rem;
+            line-height: 1.5;
+        }
+
+        .cta {
+            margin-bottom: 2rem;
+            text-align: center;
+        }
+
+        .cta a {
+            display: inline-block;
+            background: linear-gradient(120deg, #00c6ff, #0072ff);
+            color: #ffffff;
+            padding: 0.8rem 1.5rem;
+            font-size: 1.2rem;
+            font-weight: 600;
+            border-radius: 50px;
+            text-decoration: none;
+            transition: background 0.3s ease;
+        }
+
+        .cta a:hover {
+            background: linear-gradient(120deg, #0072ff, #00c6ff);
+        }
+
+        footer {
+            font-size: 0.9rem;
+            opacity: 0.8;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>AntiCMSP Browser</h1>
+        <p>O navegador do aluno: prático, eficiente e cheio de funcionalidades! 🚀</p>
+    </header>
+
+    <section class="features">
+        <div class="feature">
+            <h3>Automatização de Tarefas</h3>
+            <p>Injete scripts que facilitam a resolução de tarefas em plataformas como CMSP, Alura e LeiaSP.</p>
+        </div>
+        <div class="feature">
+            <h3>Customização Avançada</h3>
+            <p>Escolha entre temas claro e escuro, além de atalhos que tornam sua navegação mais eficiente.</p>
+        </div>
+        <div class="feature">
+            <h3>Foco no Aluno</h3>
+            <p>Desenvolvido especialmente para estudantes da SEDUC-SP, otimizando tempo e esforços.</p>
+        </div>
+    </section>
+
+    <div class="cta">
+        <p><strong>Atenção:</strong> O AntiCMSP Browser funciona apenas no Windows.</p>
+        <a href="https://github.com/JuniorSchueller/AntiCMSP_Browser/blob/main/README.md#%EF%B8%8F-como-instalar-e-usar-a-vers%C3%A3o-portable-%EF%B8%8F" target="_blank">Saiba como instalar</a>
+    </div>
+
+    <footer>
+        <p>Desenvolvido com 💻 por Junior Schueller</p>
+    </footer>
+</body>
+</html>

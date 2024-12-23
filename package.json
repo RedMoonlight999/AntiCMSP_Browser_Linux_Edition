@@ -4,7 +4,8 @@
   "description": "AntiCMSP Browser, o navegador do aluno.",
   "main": "index.js",
   "scripts": {
-    "test": "node index.js"
+    "start": "electron .",
+    "build": "electron-builder"
   },
   "repository": {
     "type": "git",
@@ -27,7 +28,17 @@
     "url": "https://github.com/JuniorSchueller/AntiCMSP_Browser/issues"
   },
   "homepage": "https://github.com/JuniorSchueller/AntiCMSP_Browser#readme",
-  "dependencies": {
-    "electron": "^33.2.1"
+  "dependencies": {},
+  "devDependencies": {
+    "electron": "^33.2.1",
+    "electron-builder": "^25.1.8"
+  },
+  "build": {
+    "appId": "com.anticmsp.browser",
+    "productName": "AntiCMSP Browser",
+    "icon": "icon.ico",
+    "win": {
+      "target": ["nsis", "portable"]
+    }
   }
 }
