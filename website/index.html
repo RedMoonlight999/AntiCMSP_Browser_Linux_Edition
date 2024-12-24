@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AntiCMSP Browser - Página Inicial</title>
+    <title>AntiCMSP Browser</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
     <link rel="shortcut icon" href="https://github.com/JuniorSchueller/AntiCMSP_Browser/raw/refs/heads/main/icon.ico" type="image/x-icon">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
     <style>
         * {
             margin: 0;
@@ -14,123 +14,82 @@
         }
 
         body {
-            font-family: 'Poppins', sans-serif;
-            background: linear-gradient(120deg, #1e3c72, #2a5298);
-            color: #ffffff;
+            font-family: 'Inter', sans-serif;
+            background: linear-gradient(120deg, #6a11cb, #2575fc);
+            color: #fff;
             display: flex;
             flex-direction: column;
             align-items: center;
             justify-content: center;
             min-height: 100vh;
-            overflow-x: hidden;
+            text-align: center;
         }
 
         header {
-            text-align: center;
             margin-bottom: 2rem;
         }
 
-        header h1 {
+        h1 {
             font-size: 3rem;
-            font-weight: 600;
-            background: linear-gradient(to right, #00c6ff, #0072ff);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-        }
-
-        header p {
-            font-size: 1.2rem;
-            margin-top: 0.5rem;
-        }
-
-        .features {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 1.5rem;
-            width: 90%;
-            max-width: 1200px;
-            margin-bottom: 2rem;
-        }
-
-        .feature {
-            background: rgba(255, 255, 255, 0.1);
-            border-radius: 10px;
-            padding: 1.5rem;
-            text-align: center;
-            transition: transform 0.3s ease, background 0.3s ease;
-        }
-
-        .feature:hover {
-            transform: translateY(-10px);
-            background: rgba(255, 255, 255, 0.2);
-        }
-
-        .feature h3 {
-            font-size: 1.5rem;
+            font-weight: 700;
             margin-bottom: 1rem;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
         }
 
-        .feature p {
-            font-size: 1rem;
-            line-height: 1.5;
-        }
-
-        .cta {
-            margin-bottom: 2rem;
-            text-align: center;
-        }
-
-        .cta a {
-            display: inline-block;
-            background: linear-gradient(120deg, #00c6ff, #0072ff);
-            color: #ffffff;
-            padding: 0.8rem 1.5rem;
+        p {
             font-size: 1.2rem;
-            font-weight: 600;
-            border-radius: 50px;
-            text-decoration: none;
-            transition: background 0.3s ease;
+            line-height: 1.6;
+            max-width: 700px;
+            margin: 0 auto 2rem;
         }
 
-        .cta a:hover {
-            background: linear-gradient(120deg, #0072ff, #00c6ff);
+        .buttons {
+            display: flex;
+            gap: 1rem;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        a.button {
+            display: inline-block;
+            padding: 0.8rem 2rem;
+            background: linear-gradient(90deg, #ff6a00, #ee0979);
+            color: #fff;
+            font-size: 1.2rem;
+            font-weight: 700;
+            text-decoration: none;
+            border-radius: 50px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+
+        a.button:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
         }
 
         footer {
+            margin-top: 2rem;
             font-size: 0.9rem;
-            opacity: 0.8;
+            background: rgba(0, 0, 0, 0.2);
+            padding: 0.5rem 1rem;
+            border-radius: 10px;
         }
     </style>
 </head>
 <body>
     <header>
-        <h1>AntiCMSP Browser</h1>
-        <p>O navegador do aluno: prático, eficiente e cheio de funcionalidades! 🚀</p>
+        <h1>🚀 AntiCMSP Browser</h1>
+        <p>O navegador do aluno que transforma sua experiência de aprendizado! Automatize tarefas, injete scripts e conquiste mais eficiência em plataformas educacionais como CMSP, Alura, LeiaSP e muito mais. 🌟</p>
     </header>
 
-    <section class="features">
-        <div class="feature">
-            <h3>Automatização de Tarefas</h3>
-            <p>Injete scripts que facilitam a resolução de tarefas em plataformas como CMSP, Alura e LeiaSP.</p>
-        </div>
-        <div class="feature">
-            <h3>Customização Avançada</h3>
-            <p>Escolha entre temas claro e escuro, além de atalhos que tornam sua navegação mais eficiente.</p>
-        </div>
-        <div class="feature">
-            <h3>Foco no Aluno</h3>
-            <p>Desenvolvido especialmente para estudantes da SEDUC-SP, otimizando tempo e esforços.</p>
-        </div>
-    </section>
-
-    <div class="cta">
-        <p><strong>Atenção:</strong> O AntiCMSP Browser funciona apenas no Windows.</p>
-        <a href="https://github.com/JuniorSchueller/AntiCMSP_Browser/releases/latest/download/anticmsp-browser-portable-x64.exe" target="_blank">Baixar Portável</a>
-        <a href="https://github.com/JuniorSchueller/AntiCMSP_Browser/releases/latest/download/anticmsp-browser-setup-x64.exe" target="_blank">Baixar Instalador</a>
+    <div class="buttons">
+        <a href="https://github.com/JuniorSchueller/AntiCMSP_Browser/releases/latest/download/anticmsp-browser-portable-x64.exe" class="button">Baixar Versão Portátil</a>
+        <a href="https://github.com/JuniorSchueller/AntiCMSP_Browser/releases/latest/download/anticmsp-browser-setup-x64.exe" class="button">Baixar Instalador</a>
     </div>
 
     <footer>
-        <p>Desenvolvido com ❤️ por Junior Schueller</p>
+        ⚠️ O AntiCMSP Browser é compatível apenas com o sistema operacional Windows.
     </footer>
 </body>
 </html>
