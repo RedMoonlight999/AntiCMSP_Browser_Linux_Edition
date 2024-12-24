@@ -53,7 +53,7 @@ O AntiCMSP Browser foi criado para facilitar a vida dos estudantes que usam plat
 - **LeiaSP** 📖
 - **Let's It Leia** 💬
 - **Matific Overload** 🔋
-- **Tô Salvo!** 🛡️
+- **Me Salva Cheeto** 🛡️
 - **Speakify** 🎤
 
 ## 📱 Como Contribuir
@@ -73,7 +73,7 @@ Se você deseja contribuir, fique à vontade para enviar um PR (pull request) co
 - LeiaSP: **?**
 - Let's It Leia: **[iUnknownBr](https://github.com/iUnknownBr)** & **[Snowxyrzk](https://github.com/Snowxyrzk)**
 - Matific Overload: **[flowings](https://github.com/flowingsalt)**
-- Tô Salvo! **[marcos10pc](https://github.com/marcos10pc)**
+- Me Salva Cheeto **[marcos10pc](https://github.com/marcos10pc)**
 
 ⚠️ Se você for o dono de algum script e seu nome não estiver presente na lista, por favor me envie uma DM no Discord ⚠️
 
