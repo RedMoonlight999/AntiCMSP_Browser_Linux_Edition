@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AntiCMSP Browser - FAQ</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #6a11cb, #2575fc);
+            color: #fff;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+        }
+
+        header p {
+            font-size: 1.2rem;
+            margin-top: 0.5rem;
+        }
+
+        .faq {
+            width: 90%;
+            max-width: 800px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 15px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+            padding: 2rem;
+        }
+
+        .faq-item {
+            margin-bottom: 1.5rem;
+        }
+
+        .faq-item h3 {
+            font-size: 1.5rem;
+            cursor: pointer;
+            margin: 0;
+            position: relative;
+        }
+
+        .faq-item h3::after {
+            content: '\25BC';
+            font-size: 1rem;
+            position: absolute;
+            right: 0;
+            transition: transform 0.3s ease;
+        }
+
+        .faq-item.open h3::after {
+            transform: rotate(180deg);
+        }
+
+        .faq-item p {
+            font-size: 1rem;
+            line-height: 1.6;
+            margin: 0;
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.3s ease;
+        }
+
+        .faq-item.open p {
+            max-height: 200px;
+        }
+
+        footer {
+            margin-top: 2rem;
+            text-align: center;
+        }
+
+        a {
+            color: #ffefba;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+
+        a:hover {
+            color: #fbd46d;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>AntiCMSP Browser - FAQ</h1>
+        <p>Respostas para as dúvidas mais frequentes sobre o navegador.</p>
+    </header>
+
+    <section class="faq">
+        <div class="faq-item">
+            <h3>O que é o AntiCMSP Browser?</h3>
+            <p>O AntiCMSP Browser é um navegador desenvolvido para facilitar a injeção de scripts nas plataformas de ensino, como CMSP, Alura, Leia SP, entre outros.</p>
+        </div>
+
+        <div class="faq-item">
+            <h3>O navegador é seguro para uso?</h3>
+            <p>O navegador foi projetado com funcionalidades úteis para os alunos. No entanto, o uso dos scripts adicionados <strong>pelo usuário</strong> via TamperTurkey ou qualquer outro meio deve ser feito com cautela. Deve ser evitado o uso do navegador como padrão, pois o navegador vem com a segurança desativada para que haja sucesso na injeção de scripts e manipulação de páginas.</p>
+        </div>
+
+        <div class="faq-item">
+            <h3>Quais sistemas operacionais são compatíveis?</h3>
+            <p>Atualmente, o AntiCMSP Browser funciona apenas no Windows.</p>
+        </div>
+
+        <div class="faq-item">
+            <h3>Como instalar o AntiCMSP Browser?</h3>
+            <p>Visite a <a href="./">página inicial</a> e baixe uma das versões disponíveis.</p>
+        </div>
+
+        <div class="faq-item">
+            <h3>Posso personalizar os scripts utilizados?</h3>
+            <p>Os scripts presentes no menu lateral direito não podem ser editados ou personalizados diretamente, mas é possível adicionar e criar scripts para páginas utilizando o <a href="https://github.com/JuniorSchueller/TamperTurkey">TamperTurkey</a>.</p>
+        </div>
+
+        <div class="faq-item">
+            <h3>Como injetar um script?</h3>
+            <p>Os scripts podem ser acessados clicando nas 3 barras horizontais presentes no canto superior direito da interface do navegador, ao clicar irá aparecer um menu lateral que conterá os scripts disponíveis. (pode ser necessário rolar um pouco o menu para baixo) Para injetar o script basta clicar no script desejado.</p>
+        </div>
+
+        <div class="faq-item">
+            <h3>Como injetar o TamperTurkey?</h3>
+            <p>O TamperTurkey pode ser injetado por clicar em seu ícone no canto superior direito, ao lado esquerdo das 3 barras horizontais.</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>Volte para a <a href="index.html">página inicial</a>.</p>
+    </footer>
+
+    <script>
+        document.querySelectorAll('.faq-item h3').forEach(header => {
+            header.addEventListener('click', () => {
+                const parent = header.parentElement;
+                parent.classList.toggle('open');
+            });
+        });
+    </script>
+</body>
+</html>
