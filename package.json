@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/JuniorSchueller/AntiCMSP_Browser.git"
+    "url": "https://github.com/RedMoonlight999/AntiCMSP_Browser_Linux_Edition.git"
   },
   "keywords": [
     "anticmsp",
@@ -25,9 +25,9 @@
   "author": "JuniorSchueller",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/JuniorSchueller/AntiCMSP_Browser/issues"
+    "url": "https://github.com/RedMoonlight999/AntiCMSP_Browser_Linux_Edition/issues"
   },
-  "homepage": "https://github.com/JuniorSchueller/AntiCMSP_Browser#readme",
+  "homepage": "https://github.com/RedMoonlight999/AntiCMSP_Browser_Linux_Edition#readme",
   "dependencies": {},
   "devDependencies": {
     "electron": "^33.2.1",
@@ -37,8 +37,8 @@
     "appId": "com.anticmsp.browser",
     "productName": "AntiCMSP Browser",
     "icon": "icon.ico",
-    "win": {
-      "target": ["nsis", "portable"]
+    "linux": {
+      "target": "AppImage"
     }
   }
 }
