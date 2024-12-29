@@ -16,7 +16,7 @@ O AntiCMSP Browser foi criado para facilitar a vida dos estudantes que usam plat
 
 1. Acesse a última versão AntiCMSP Browser e abaixe o arquivo AppImage (https://github.com/RedMoonlight999/AntiCMSP_Browser_Linux_Edition/releases/latest)
 2. Vá na pasta onde o arquivo foi baixado, clique com o botão direto num lugar vazio e abra com o terminal.
-4. Copie o comando ```chmod +x AntiCMSP.Browser v1.0.AppImage``` e cole no terminal com Ctrl+Shift+V e dê Enter.
+4. Copie o comando ```chmod +x AntiCMSP.Browser.v1.0.AppImage``` e cole no terminal com Ctrl+Shift+V e dê Enter.
 5. Pronto, agora é só clicar duas vezes sobre o icone do programa para abrir ou digitar no terminal ```./AntiCMSP.Browser.v1.0.AppImage```
 
 ## ⚙️ Atalhos
