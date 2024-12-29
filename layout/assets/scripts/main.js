@@ -11,7 +11,7 @@ const saveButton = document.querySelector('#save-button');
 function searchText(text=null) {
     let searchUrl = '';
 
-    let searchEngine = localStorage.getItem('engine') || 'Google';
+    let searchEngine = localStorage.getItem('engine') || 'DuckDuckGo';
 
     switch (searchEngine) {
         case 'Google':
@@ -27,7 +27,7 @@ function searchText(text=null) {
             searchUrl = 'https://duckduckgo.com/?q=';
             break;
         default:
-            searchUrl = 'https://google.com/search?q=';
+            searchUrl = 'https://duckduckgo.com/?q=';
             break;
     }
 
@@ -88,7 +88,7 @@ themeToggle.addEventListener('click', () => {
 });
 
 function updateEngine() {
-    const engine = localStorage.getItem('engine') || 'Google';
+    const engine = localStorage.getItem('engine') || 'DuckDuckGo';
     engineName.textContent = engine;
     engineSelect.value = engine;
 };

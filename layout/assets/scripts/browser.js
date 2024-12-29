@@ -63,7 +63,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     function searchText(text) {   
         let searchUrl = '';
-        let searchEngine = localStorage.getItem('engine') || 'Google';
+        let searchEngine = localStorage.getItem('engine') || 'DuckDuckGo';
     
         switch (searchEngine) {
             case 'Google':
@@ -79,7 +79,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 searchUrl = 'https://duckduckgo.com/?q=';
                 break;
             default:
-                searchUrl = 'https://google.com/search?q=';
+                searchUrl = 'https://duckduckgo.com/?q=';
                 break;
         }
     
