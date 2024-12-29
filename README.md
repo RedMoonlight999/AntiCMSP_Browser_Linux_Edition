@@ -1,4 +1,4 @@
-# 🚀 **AntiCMSP Browser** 🖥️
+# **AntiCMSP Browser** 🖥️
 
 **AntiCMSP Browser**, o navegador do aluno 📚🎓
 
@@ -12,30 +12,12 @@ O AntiCMSP Browser foi criado para facilitar a vida dos estudantes que usam plat
 - **Atalhos de Navegação**: Use atalhos rápidos para recarregar páginas, navegar para frente ou voltar. 🔄📑
 - **Menu de Scripts**: Escolha scripts pré-configurados com ícones e execute-os facilmente. 🖱️⚡
 
-## ⬇️ Como Instalar e Usar a Versão Portable 🖱️
+## ⬇️ Como Instalar e Usar a Versão AppImage 🖱️
 
-1. Acesse a [última versão AntiCMSP Browser](https://github.com/JuniorSchueller/AntiCMSP_Browser/releases/latest/)
-2. [Baixe a versão portable](https://github.com/JuniorSchueller/AntiCMSP_Browser/releases/latest/download/anticmsp-browser-portable-x64.exe)
-3. Vá na pasta onde o arquivo foi baixado
-4. Execute o arquivo `anticmsp-browser-portable-x64.exe`
-5. Aguarde o navegador abrir e carregar
-
-## ⬇️ Como Instalar e Usar a Versão Portable Zipada 📁
-
-1. Acesse a [última versão AntiCMSP Browser](https://github.com/JuniorSchueller/AntiCMSP_Browser/releases/latest/)
-2. [Baixe a versão portable](https://github.com/JuniorSchueller/AntiCMSP_Browser/releases/latest/download/anticmsp-browser-portable-x64.zip)
-3. Vá na pasta onde o arquivo foi baixado
-4. Extraia o conteúdo do arquivo `anticmsp-browser-portable-x64.zip` em uma pasta
-5. Entre na pasta e execute o arquivo `AntiCMSP Browser.exe`
-6. Aguarde o navegador abrir e carregar
-
-## ⬇️ Como Instalar Usando o Setup ⬇️
-
-1. Acesse a [última versão AntiCMSP Browser](https://github.com/JuniorSchueller/AntiCMSP_Browser/releases/latest/)
-2. [Baixe o setup](https://github.com/JuniorSchueller/AntiCMSP_Browser/releases/latest/download/anticmsp-browser-setup-x64.exe)
-3. Vá na pasta onde o arquivo foi baixado
-4. Execute o arquivo `anticmsp-browser-setup-x64.exe`
-5. Espere a instalação finalizar e o navegador abrir e carregar
+1. Acesse a última versão AntiCMSP Browser e abaixe o arquivo AppImage (https://github.com/RedMoonlight999/AntiCMSP_Browser_Linux_Edition/releases/latest)
+2. Vá na pasta onde o arquivo foi baixado, clique com o botão direto num lugar vazio e abra com o terminal.
+4. Copie o comando ```chmod +x AntiCMSP.Browser v1.0.AppImage``` e cole no terminal com Ctrl+Shift+V e dê Enter.
+5. Pronto, agora é só clicar duas vezes sobre o icone do programa para abrir ou digitar no terminal ```./AntiCMSP.Browser.v1.0.AppImage```
 
 ## ⚙️ Atalhos
 
