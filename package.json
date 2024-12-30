@@ -36,7 +36,7 @@
   "build": {
     "appId": "com.anticmsp.browser",
     "productName": "AntiCMSP Browser",
-    "icon": "icon.ico",
+    "icon": "icon.png",
     "linux": {
       "target": "AppImage"
     }
