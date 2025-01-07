@@ -16,7 +16,7 @@ function createWindow() {
             webviewTag: true,
             nodeIntegrationInSubFrames: true
         }
-    })};
+    })
     win.loadURL('https://anticmsp-browser.vercel.app/');
 
     ipcMain.on('devtools', () => {
@@ -39,7 +39,7 @@ function createWindow() {
         } else {
             win.webContents.executeJavaScript('window.alert("Atalho inexistente")');
         }
-    });
+    })
 }
 
 app.whenReady().then(() => {
