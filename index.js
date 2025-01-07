@@ -35,19 +35,18 @@ function createWindow() {
             case 'reloadPage':
                 win.webContents.executeJavaScript('document.querySelector("#reloadPage").click()');
                 break;
-            case 'devToolsBrowser') {
+            case 'devToolsBrowser':
                 win.webContents.openDevTools();
                 break;
-            case 'devToolsPage') {
+            case 'devToolsPage':
                 win.webContents.executeJavaScript('document.querySelector("webview").openDevTools()');
                 break;
             default:
                 win.webContents.executeJavaScript('window.alert("Atalho inexistente")');
                 break;
             }
-    });
-}
-
+    }
+)
 app.whenReady().then(() => {
     createWindow();
 
