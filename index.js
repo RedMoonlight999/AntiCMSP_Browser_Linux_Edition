@@ -28,17 +28,23 @@ function createWindow() {
     });
     ipcMain.on('shortcut', (event, args) => {
         const shortcut = args[0];
-        if (shortcut === 'reloadBrowser') {
-            win.webContents.reload();
-        } else if (shortcut === 'reloadPage') {
-            win.webContents.executeJavaScript('document.querySelector("#reloadPage").click();');
-        } else if (shortcut === 'devToolsBrowser') {
-            win.webContents.openDevTools();
-        } else if (shortcut === 'devToolsPage') {
-            win.webContents.executeJavaScript('document.querySelector("webview").openDevTools();');
-        } else {
-            win.webContents.executeJavaScript('window.alert("Atalho inexistente")');
-        }
+        switch (shortcut) {
+            case 'reloadBrowser':
+                win.webContents.reload();
+                break;
+            case 'reloadPage':
+                win.webContents.executeJavaScript('document.querySelector("#reloadPage").click()');
+                break;
+            case 'devToolsBrowser') {
+                win.webContents.openDevTools();
+                break;
+            case 'devToolsPage') {
+                win.webContents.executeJavaScript('document.querySelector("webview").openDevTools()');
+                break;
+            default:
+                win.webContents.executeJavaScript('window.alert("Atalho inexistente")');
+                break;
+            }
     });
 }
 
